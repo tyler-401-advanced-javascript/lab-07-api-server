@@ -1,0 +1,45 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "tyler",
+      "display_name": "boss",
+      "description": "da boss"
+    },
+    {
+      "name": "bob",
+      "rank": "underboss",
+      "id": 3
+    },
+    {
+      "name": "jenny",
+      "rank": "underboss",
+      "id": 4
+    },
+    {
+      "name": "jill",
+      "rank": "underboss",
+      "id": 5
+    },
+    {
+      "rank": "underbos",
+      "name": "billagin",
+      "id": 6
+    },
+    {
+      "rank": "underbos",
+      "name": "hecka",
+      "description": "poo man foo",
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "people",
+      "name": "tyler",
+      "display_name": "boss",
+      "description": "da boss"
+    }
+  ]
+}
