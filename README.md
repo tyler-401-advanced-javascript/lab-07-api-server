@@ -9,30 +9,35 @@ REST API
 
 ### Links and Resources
 
-- [submission PR]()
-- [ci/cd](http://xyz.com) (GitHub Actions)
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+- [submission PR](https://github.com/tyler-401-advanced-javascript/lab-07-api-server/pull/1)
+- [ci/cd] none
+
 
 ### Setup
 
 #### `.env` requirements (where applicable)
 
-i.e.
+no .env file needed.
 
-- `PORT` - Port Number
-- `MONGODB_URI` - URL to the running mongo instance/db
+
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. `npm start`
+clone
+
+`npm i`
+
+`nodemon index.js`
+
+run commands from terminal
 
 #### Tests
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+from clone directory: 
 
-#### UML
+`npm test __tests__/index.test.js`
 
-Link to an image of the UML for your application and response to events
+
+### Changes: 
+
+
