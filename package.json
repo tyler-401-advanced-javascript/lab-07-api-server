@@ -4,7 +4,9 @@
   "description": "Welcome to the REadme!",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage",
+    "test-watch": "jest --watchAll --coverage",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
     "express": "^4.17.1",
     "jest": "^25.1.0",
     "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
